@@ -1,1 +1,1 @@
-🐧 Arch & Gentoo user | Building systems from source | Python & React Developer
+🐧 Arch & Gentoo User | Python & React Developer | Exploring Linux, Open Source & System Internals
