@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300">
+<title>Mohammed Alminhali - Future Security AI Engineer, building systems from source</title>
+<defs>
+<style>
+.s{font-family:Inter,'Segoe UI','Noto Sans','DejaVu Sans',Arial,sans-serif}
+.m{font-family:'JetBrains Mono','DejaVu Sans Mono','Noto Sans Mono',Consolas,monospace}
+</style>
+<clipPath id="cp"><rect width="1280" height="300" rx="18"/></clipPath>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2=".4"><stop offset="0" stop-color="#020205"/><stop offset=".45" stop-color="#07051a"/><stop offset="1" stop-color="#170b33"/></linearGradient><linearGradient id="cg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#37cfdb"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+<radialGradient id="g1" cx="1110" cy="150" r="300" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#37cfdb" stop-opacity=".2"/><stop offset="1" stop-color="#37cfdb" stop-opacity="0"/></radialGradient>
+<radialGradient id="g2" cx="1300" cy="-40" r="420" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#8b5cf6" stop-opacity=".42"/><stop offset="1" stop-color="#6c5cff" stop-opacity="0"/></radialGradient>
+<radialGradient id="mg" cx=".85" cy=".5" r=".55"><stop offset="0" stop-color="#fff"/><stop offset=".5" stop-color="#fff" stop-opacity=".4"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+<mask id="mk"><rect width="1280" height="300" fill="url(#mg)"/></mask>
+<pattern id="gr" width="40" height="40" patternUnits="userSpaceOnUse" x="10" y="10"><path d="M40 0H0V40" fill="none" stroke="#c4b5fd" stroke-opacity=".08"/></pattern>
+<filter id="gl" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="8"/></filter>
+</defs>
+<g clip-path="url(#cp)">
+<rect width="1280" height="300" fill="url(#bg)"/>
+<rect width="1280" height="300" fill="url(#gr)" mask="url(#mk)"/>
+<rect width="1280" height="300" fill="url(#g1)"/>
+<rect width="1280" height="300" fill="url(#g2)"/>
+
+<!-- emblem -->
+<g fill="none" stroke="#a78bfa">
+<circle cx="1110" cy="150" r="72" stroke-opacity=".3"/>
+<circle cx="1110" cy="150" r="102" stroke-opacity=".16" stroke-dasharray="3 6"/>
+<circle cx="1110" cy="150" r="138" stroke-opacity=".08"/>
+<path d="M1110 6V24M1110 276V294M966 150H984M1236 150H1254" stroke-opacity=".3"/>
+</g>
+<circle cx="1182" cy="150" r="4" fill="#a78bfa"/>
+<path d="M1080 124L1106 150L1080 176" fill="none" stroke="#37cfdb" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<g fill="#37cfdb"><rect x="1116" y="166" width="30" height="10" filter="url(#gl)" opacity=".8"/><rect x="1116" y="166" width="30" height="10"><animate attributeName="opacity" values="1;0;1" keyTimes="0;.5;1" dur="1.2s" calcMode="discrete" repeatCount="indefinite"/></rect></g>
+
+<!-- text -->
+<rect x="65" y="54" width="9" height="9" fill="#37cfdb"/>
+<text x="90" y="64" class="m" font-size="17" font-weight="700" letter-spacing="3" fill="#37cfdb">SYSTEMS &#183; SECURITY &#183; AI</text>
+<text x="60" y="142" class="s" font-size="66" font-weight="700" letter-spacing="-1.5" fill="#eef3fa">Mohammed Alminhali</text>
+<text x="64" y="190" class="s" font-size="26" font-weight="500" fill="#dbe3ee">Future Security AI Engineer <tspan fill="#8e9bb1">&#183;</tspan> <tspan fill="url(#cg)">Building systems from source</tspan></text>
+<rect x="64" y="218" width="840" height="1" fill="#fff" fill-opacity=".1"/>
+<rect x="64" y="217" width="80" height="3" fill="url(#cg)"/>
+<text x="64" y="256" class="m" font-size="19" fill="#8e9bb1"><tspan fill="#37cfdb" font-weight="700">&gt;</tspan> Linux From Scratch <tspan fill="#37cfdb">&#183;</tspan> Systems-security research <tspan fill="#a78bfa">&#183;</tspan> Bug bounty</text>
+</g>
+<rect x=".5" y=".5" width="1279" height="299" rx="17.5" fill="none" stroke="#c4b5fd" stroke-opacity=".18"/>
+</svg>
