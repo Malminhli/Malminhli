@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1600 920" preserveAspectRatio="xMidYMid slice">
+<title>The C code was written with AI. The architecture wasn't. Five lessons from REVENANT.</title>
+<defs>
+<style>
+.s{font-family:Inter,'Segoe UI','Noto Sans','DejaVu Sans',Arial,sans-serif}
+.m{font-family:'JetBrains Mono','DejaVu Sans Mono','Noto Sans Mono',Consolas,monospace}
+.h{font-size:78px;font-weight:700;letter-spacing:-2px}
+.k{font-size:20px;font-weight:700;letter-spacing:3px;fill:#37cfdb}
+.q{font-weight:500;fill:#8e9bb1}
+.n{font-size:24px;font-weight:700;fill:#a78bfa}
+.l{font-size:34px;font-weight:400;fill:#aab6c8}
+.b{font-weight:700;fill:#fff}
+.d{font-size:24px;font-weight:700;letter-spacing:1.5px;fill:#eef3fa}
+.e{font-size:21px;fill:#8e9bb1}
+.c{font-size:15px;font-weight:700;letter-spacing:2px;fill:#37cfdb}
+</style>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2=".35"><stop offset="0" stop-color="#020205"/><stop offset=".45" stop-color="#07051a"/><stop offset="1" stop-color="#150a2e"/></linearGradient><linearGradient id="cp" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#37cfdb"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+<radialGradient id="g1" cx="1290" cy="560" r="520" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#37cfdb" stop-opacity=".15"/><stop offset="1" stop-color="#37cfdb" stop-opacity="0"/></radialGradient>
+<radialGradient id="g2" cx="1580" cy="-60" r="640" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#8b5cf6" stop-opacity=".34"/><stop offset="1" stop-color="#6c5cff" stop-opacity="0"/></radialGradient>
+<radialGradient id="g3" cx="160" cy="940" r="560" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#7c3aed" stop-opacity=".16"/><stop offset="1" stop-color="#7c3aed" stop-opacity="0"/></radialGradient>
+<radialGradient id="mg" cx=".8" cy=".45" r=".62"><stop offset="0" stop-color="#fff"/><stop offset=".5" stop-color="#fff" stop-opacity=".45"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+<mask id="mk"><rect width="1600" height="920" fill="url(#mg)"/></mask>
+<pattern id="gr" width="44" height="44" patternUnits="userSpaceOnUse" x="22" y="18"><path d="M44 0H0V44" fill="none" stroke="#c4b5fd" stroke-opacity=".07"/></pattern>
+<filter id="gl" x="-20%" y="-60%" width="140%" height="220%"><feGaussianBlur stdDeviation="9"/></filter>
+<marker id="ar" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="9" markerHeight="9" orient="auto"><path d="M1 1L9 5L1 9" fill="none" stroke="#37cfdb" stroke-width="1.6"/></marker>
+</defs>
+<rect width="1600" height="920" fill="url(#bg)"/>
+<rect width="1600" height="920" fill="url(#gr)" mask="url(#mk)"/>
+<rect width="1600" height="920" fill="url(#g1)"/>
+<rect width="1600" height="920" fill="url(#g2)"/>
+<rect width="1600" height="920" fill="url(#g3)"/>
+<g fill="none" stroke="#a78bfa"><circle cx="1500" cy="120" r="250" stroke-opacity=".1"/><circle cx="1500" cy="120" r="290" stroke-opacity=".07" stroke-dasharray="3 7"/></g>
+
+<!-- kicker -->
+<rect x="111" y="94" width="11" height="11" fill="#37cfdb"/>
+<text x="140" y="106" class="m k">REVENANT &#183; RESEARCH PROTOTYPE</text>
+<text x="1488" y="106" class="m k q" text-anchor="end">C11 &#183; LINUX USER SPACE</text>
+
+<!-- hook -->
+<text class="s h" x="105" y="306" fill="none" filter="url(#gl)">The architecture wasn&#8217;t.<tspan class="m" font-size="54" dx="14" dy="-10" fill="#a78bfa" fill-opacity=".8">&#9608;</tspan></text>
+<text class="s h" fill="#eef3fa"><tspan x="105" y="216">The C code was written with AI.</tspan><tspan x="105" y="306" fill="url(#cp)">The architecture wasn&#8217;t.<tspan class="m" font-size="54" dx="14" dy="-10" fill="#a78bfa">&#9608;</tspan></tspan></text>
+
+<rect x="110" y="356" width="1380" height="1" fill="#fff" fill-opacity=".1"/>
+<rect x="110" y="355" width="96" height="3" fill="url(#cp)"/>
+
+<!-- lessons -->
+<text x="110" y="414" class="m k q">5 LESSONS</text>
+<g class="s l">
+<text x="182" y="478">The <tspan class="b">spec</tspan> is the real work.</text>
+<text x="182" y="544">AI writes code fast. <tspan class="b">It can&#8217;t decide what&#8217;s true.</tspan></text>
+<text x="182" y="610">Review is a <tspan class="b">loop</tspan>, not a step.</text>
+<text x="182" y="676">Own <tspan class="b">every claim</tspan>.</text>
+<text x="182" y="742">Say <tspan class="b">&#8220;AI-assisted&#8221;</tspan> out loud.</text>
+</g>
+<g class="m n">
+<text x="110" y="476">01</text><text x="110" y="542">02</text><text x="110" y="608">03</text><text x="110" y="674">04</text><text x="110" y="740">05</text>
+</g>
+
+<!-- diagram -->
+<g class="m">
+<text x="1100" y="414" class="k q">HOW IT WAS BUILT</text>
+<rect x="1100" y="442" width="336" height="84" rx="10" fill="#37cfdb" fill-opacity=".1" stroke="#37cfdb" stroke-opacity=".9"/>
+<text x="1122" y="477" class="d">ARCHITECTURE</text><text x="1122" y="508" class="e">designed by me</text><text x="1416" y="476" class="c" text-anchor="end">ME</text>
+<rect x="1100" y="560" width="336" height="84" rx="10" fill="#8b5cf6" fill-opacity=".1" stroke="#a78bfa" stroke-opacity=".75"/>
+<text x="1122" y="595" class="d">IMPLEMENTATION</text><text x="1122" y="626" class="e">C11, written with AI</text><text x="1416" y="594" class="c" text-anchor="end" fill="#a78bfa">AI</text>
+<rect x="1100" y="678" width="336" height="84" rx="10" fill="#0d0a22" stroke="url(#cp)" stroke-opacity=".8"/>
+<text x="1122" y="713" class="d">EVIDENCE</text><text x="1122" y="744" class="e">reproducible tests</text><text x="1416" y="712" class="c" text-anchor="end" fill="url(#cp)">AI + ME</text>
+<path d="M1268 528V552" stroke="#37cfdb" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M1268 646V670" stroke="#37cfdb" stroke-width="1.6" marker-end="url(#ar)"/>
+<path d="M1438 720H1462Q1472 720 1472 710V494Q1472 484 1462 484H1446" fill="none" stroke="#a78bfa" stroke-opacity=".8" stroke-width="1.6" stroke-dasharray="5 5" marker-end="url(#ar)"/>
+<text transform="translate(1486 600) rotate(90)" class="c" text-anchor="middle" fill="#a78bfa" fill-opacity=".85">REVIEW LOOP</text>
+</g>
+
+<!-- footer -->
+<rect x="110" y="792" width="1380" height="1" fill="#fff" fill-opacity=".1"/>
+<text x="110" y="836" class="s" font-size="24" fill="#8e9bb1"><tspan fill="#eef3fa" font-weight="700">Mohammed Alminhali</tspan> &#183; REVENANT research prototype</text>
+<text x="1490" y="836" class="m" font-size="22" fill="#8e9bb1" text-anchor="end">linkedin.com/in/<tspan fill="#eef3fa">mohammed-alminhali</tspan></text>
+</svg>
