@@ -35,6 +35,7 @@ Grade 10 student at the **Gifted Technical Secondary School (Tuwaiq Academy)**. 
 
 | Project | What it is |
 |---|---|
+| [password-checker](https://github.com/Malminhli/password-checker) | Password strength and breach checker in Python (HIBP k-anonymity API) |
 | [pocket-focus](https://github.com/Malminhli/pocket-focus) | A tiny bilingual Pomodoro focus timer for the browser |
 | [space-quest-terminal-rpg](https://github.com/Malminhli/space-quest-terminal-rpg) | Terminal RPG in JavaScript |
 | [smartmem-web-app](https://github.com/Malminhli/smartmem-web-app) | TypeScript web app |
